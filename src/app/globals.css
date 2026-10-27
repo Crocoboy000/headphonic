@@ -1,26 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #6750a4;
+  --secondary: #6155F5;
+  --tertiary: #c9a74d;
+  --neutral: #25232d;
+  --light: #c6d2ff;
+  --white: #ffffff;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-neutral: var(--neutral);
+  --color-light: var(--light);
+  --color-white: var(--white);
+
+  --font-sans: var(--font-inter), Inter, sans-serif;
+
+  --text-h1: 64px;
+  --text-h2: 48px;
+  --text-h3: 32px;
+  --text-h4: 24px;
+  --text-body: 16px;
+  --text-small: 14px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
+
+
+
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light);
+  color: var(--neutral);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Target WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px;   /* reduce thickness */
+  height: 6px;  /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* customize thumb */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* or match your background */
 }
