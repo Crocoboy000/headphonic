@@ -21,7 +21,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="bg-light md:p-2 w-full py-4 max-w-8xl mx-auto px-5">
+    <section className="bg-white md:p-2 w-full py-4 max-w-8xl mx-auto px-5">
 
 
         <div className="hidden md:flex items-center justify-center">
@@ -52,7 +52,7 @@ export default function Stats() {
         </div>
 
 
-        <div className="grid grid-cols-2   md:hidden gap-0">
+        <div className="grid grid-cols-2  md:hidden gap-0">
           {stats.map((stat, index) => (
             <div key={stat.label} className="flex flex-col items-center">
 

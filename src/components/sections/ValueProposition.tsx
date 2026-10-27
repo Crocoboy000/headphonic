@@ -125,19 +125,16 @@ export default function ValueProposition() {
   return (
     <section
       id="value-proposition"
-      className="max-h-screen relative flex flex-col gap-25  justify-start items-center w-full bg-light overflow-hidden"
+      className="max-h-screen relative flex flex-col gap-25  justify-start items-center w-full bg-white overflow-hidden"
     >
-      {/* Top wave separator */}
-
         <Image
           src="/headphones/top-wave.svg"
           alt=""
           width={1440}
           height={136}
-          className="gsap-vp-wave  w-full h-auto"
+          className="gsap-vp-wave w-full h-auto"
           aria-hidden="true"
         />
-
 
       {/* Main content */}
       <div className="relative z-10 w-full max-w-7xl  mx-auto">

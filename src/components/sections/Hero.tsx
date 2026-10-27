@@ -41,7 +41,7 @@ export default function Hero() {
           <h1 className="text-2xl sm:text-3xl flex md:justify-start justify-start md:text-4xl lg:text-[50px] xl:text-h1 font-extrabold text-secondary leading-[1.02] tracking-tight">
             Sound Built Around You
           </h1>
-          <p className="text-neutral/75 text-center text-sm sm:text-base lg:text-lg xl:text-xl leading-relaxed  w-95">
+          <p className="text-neutral/75 text-left text-sm sm:text-base lg:text-lg xl:text-xl leading-relaxed  w-95">
             Discover over 2,000 headphones — from everyday listening to
             studio-grade precision. Find the pair that fits your world.
           </p>

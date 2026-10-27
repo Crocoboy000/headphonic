@@ -59,7 +59,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="gsap-testimonials-section p-8 mt-15  relative w-full bg-light overflow-hidden"
+      className="gsap-testimonials-section p-8 mt-15  relative w-full bg-white overflow-hidden"
     >
       <div className="relative grid gap-25 md:grid-cols-2 md:gap-5 place-content-center p-15 w-full md:max-h-screen max-w-8xl mx-auto px-4 sm:px-6">
 

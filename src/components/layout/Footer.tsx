@@ -66,19 +66,19 @@ const supportItems = [
 
 function Footer() {
   return (
-<footer className='w-full max-w-8xl border-none overflow-x-hidden relative'>
+<footer className='w-full max-w-8xl mt-40 border-none overflow-x-hidden relative'>
     <div className="absolute  pointer-events-none bg-secondary bottom-30 -right-89 h-[46%] w-full rounded-t-[121px]"></div>
     <div className="absolute pointer-events-none bg-tertiary bottom-20 -right-59 h-[44%] w-full rounded-t-[121px]"></div>
     <div className="absolute pointer-events-none bg-primary bottom-10 -right-25 h-[42%] w-full rounded-t-[121px]"></div>
     <div className="relative bg-neutral p-8 w-full rounded-t-[121px]">
         
-        {/* Main Footer Container */}
+
         <div className="relative  flex flex-col justify-around">
             
-            {/* Top Section - Logo, Socials, and Links */}
+
             <div className="grid grid-cols-1 py-15 w-full md:grid-cols-4 gap-8 md:gap-12 lg:gap-16 border-gray-600">
                 
-                {/* Left Column - Logo and Socials */}
+
                 <div className="flex flex-col items-center">
                     <h3 className="text-white text-lg sm:text-xl font-bold mb-2">Headphonic</h3>
                     <p className="text-gray-400 text-xs sm:text-sm mb-6">Sound Built Around You</p>
@@ -99,7 +99,7 @@ function Footer() {
 
 
                 <div className='flex flex-row  justify-around col-span-3 w-full'>
-                {/* Middle Column - Explore */}
+  
                   <div className="hidden md:block border-l border-gray-600"/>
                 <div className="flex justify-start gap-25">
                   <div>
@@ -115,7 +115,7 @@ function Footer() {
                 </div>
 
                 
-                {/* Right Column - Support */}
+  
                     <div className="md:block border-l border-gray-600"/>
                 <div className=" flex justify-center  gap-25">
                     <div>
@@ -132,13 +132,12 @@ function Footer() {
             </div>
 
                 
-            
-            {/* Bottom Section - Brand and Copyright */}
+
         </div>
             <div className="md:flex hidden px-8 justify-between items-center w-full h-full">
                 <div className=' flex flex-col w-full'>
                 <div className='w-[63%] bg-light/40 h-[0.3px] mb-2' />
-                <p className="text-light/50  stext-small">Made with passion.</p>
+                <p className="text-light/50  stext-small">Made with passion. by Crocoboy (Youssef) </p>
                 </div>
                 <div className=' flex items-end flex-col w-full'>
                     
